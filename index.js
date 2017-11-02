@@ -11,6 +11,6 @@ const rnredux = () => (
   <Provider store={store}>
     <App/>
   </Provider>
-)
+);
 
 AppRegistry.registerComponent('codingChallenge_fpinon', () => rnredux);
